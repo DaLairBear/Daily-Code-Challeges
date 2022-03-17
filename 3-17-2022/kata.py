@@ -68,3 +68,13 @@ def rps(p1, p2):
                 return "Player 1 won!"
             else:
                 return "Player 2 won!"
+
+
+
+
+# 8 kyu 
+# Simple, remove the spaces from the string, then return the resultant string.
+
+def no_space(x):
+    #your code here
+    return x.replace(" ", "")
